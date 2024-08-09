@@ -4,21 +4,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 2px 13% 13% 13%;
+    margin: 4% 14% 14% 14%;
     background-color: #ffffff;
 }
 
-form {
-    background-color:  #0265fa;
-    border-radius: 20px;
-    padding: 80px;
-}
-
-.social-links {
-    display: flex;
-    gap: 20px;
-}
-
+/* stilo-cuenta */
 .social-link {
     text-decoration: none;
     color: #fff;
@@ -29,12 +19,11 @@ form {
     align-items: center;
     gap: 10px;
     transition: background-color 0.3s;
+    margin: 50px;
 }
-
 .social-link:hover {
     background-color: #555;
 }
-
 .google {
     background-color: #4285F4;
 }
@@ -50,35 +39,66 @@ form {
 .fab {
     font-size: 24px;
 }
+
+
+
+
+form {
+    background-color: transparent;
+    padding: 6px 30px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #0022e2;
+    margin: 6px 0;
+}
+fieldset {
+    margin: 20px 3%;
+    border: 2px solid #ddd;
+}
+legend {
+    padding: 0 6px;
+    border: 1px solid #ddd6;
+    background-color: #ddd6;
+    color: #000000;
+}
+
+.form_input {
+    padding: 0,2px;
+}
+
 .controls {
-    padding: 10px 30px;
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 6px 3px;
+    color: #000000;
+    border-color: #65aee6;
+    border-radius: 12px;
 }
 .controls-input {
-    background-color: darkgrey;
+    background-color: rgb(218, 218, 218);
     padding: 9px 12px;
     width: 100%;
     border: none;
-    border-left: 2px solid #666;
-    padding: 6px 20px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    border-left: 2px solid #3b3b3b;
+    padding: 4px 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
 }
 .botons {
-    background-color: rgb(12, 33, 255);
-    color: rgb(255, 170, 91);
+    background-color: rgb(110, 37, 237);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 15px 30px 15px 30px;
 }
 .control {
-    background-color: #dfdfdf;
+    background-color: #f3f3f3;
     resize: vertical;
     min-height: 100px;
     max-height: 200px;
-}
-h1 {
-    text-align: center;
-    padding: 20px 2px 20px 30px;
+    border-color: rgb(230, 31, 31);
 }
